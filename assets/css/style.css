@@ -2,6 +2,18 @@
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
+  /* body{
+    text-align: center;
+  } */
+
   header, footer {
     background-color: rgb(22, 90, 22);
+    width: auto;
+    height: 50px;
+    color: white;
+  }
+  .header-element{
+    position:relative;
+    display: inline;
+    justify-content: end;
   }
