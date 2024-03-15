@@ -1,20 +1,28 @@
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     text-align: center;
+    margin: 0px;
   }
 
   header, footer {
+    position: relative;
+    display: block;
     background-color: rgb(22, 90, 22);
     width: auto;
     height: 30px;
     color: white;
     text-align: right;
+    top: 0px;
   }
 
   a:link ,a:visited,a:hover {
     color: white;
     background-color: transparent;
     text-decoration: none;
+  }
+
+  .spacing {
+    margin: 20px 0 20px;
   }
 
   .header-element{
@@ -25,10 +33,10 @@
   }
 
   #hd_1 {
-    border-bottom: 10px solid rgb(238, 230, 163);
+    border-bottom: 10px solid #ddaf94;
   }
 
   #ft_1 {
-    border-bottom: 10px solid rgb(129, 129, 129);
+    border-bottom: 10px solid #4F4847;
     text-align: center;
   }
